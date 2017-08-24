@@ -57,6 +57,7 @@ function createTemplate (data) {
                 <div>
                     ${content}
             </div>
+            <div id='printchatbox'></div>
             <h3>Comments</h3>
             You can place your comments here : 
             <textarea name="comment" cols="25" rows="8"></textarea>
