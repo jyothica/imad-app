@@ -81,11 +81,12 @@ submit.onclick = function() {
   
   // display comment
   
-  var inputBox = document.getElementById('comment');
-
-inputBox.onkeyup = function(){
-    document.getElementById('printchatbox').innerHTML = inputBox.value;
-}
+  // Make the request
+    var dataInput = document.getElementById('comment');
+    var comment = dataInput.value;
+    request.open('GET', 'http://jyothicatauro.imad.hasura-app.io/submit-name?name='+name, true);
+    request.send(null);
+  
 };
 
 
