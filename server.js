@@ -63,7 +63,7 @@ function createTemplate (data) {
             
             <textarea name="comment" cols="25" rows="8"></textarea>
             
-            <input type="submit" onclick= function getwords() </input>
+            <input type="submit" name="Submit" id="submit"> </input>
             <input type="reset" value="Reset"></input>
             
             <p><b>Your comments: </b>
