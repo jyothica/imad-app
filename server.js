@@ -59,7 +59,7 @@ function createTemplate (data) {
             </div>
             <h3>Comments</h3>
             You can place your comments here : 
-            <textarea name="comment" cols="50" rows="50"></textarea>
+            <textarea name="comment" cols="50" rows="20"></textarea>
             <input type="submit" value="Submit" id="sub_btn"></input>
             <ul id="commentlist">
                 
