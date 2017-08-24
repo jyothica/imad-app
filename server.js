@@ -57,15 +57,13 @@ function createTemplate (data) {
                 <div>
                     ${content}
             </div>
-            <div id='printchatbox'></div>
+            <div id='display'></div>
             <h3>Comments</h3>
             You can place your comments here : 
+            
             <p><textarea name="comment" cols="25" rows="8"></textarea>
             <br/>
-            <input type="submit" onclick= function(){
-                document.getElementById('display').innerHTML = 
-                    document.getElementById("comment").value;
-            };"></input>
+            <input type="submit" onclick= function getwords() </input>
             <input type="reset"></input></p>
             
             <p><b>Your comments: </b>
