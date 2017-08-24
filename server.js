@@ -62,9 +62,9 @@ function createTemplate (data) {
             You can place your comments here : 
             
             <textarea name="comment" cols="25" rows="8"></textarea>
-            <br/>
+            
             <input type="submit" onclick= function getwords() </input>
-            <input type="reset" value="Reset">
+            <input type="reset" value="Reset"></input>
             
             <p><b>Your comments: </b>
             <span id='display'></span></p>
