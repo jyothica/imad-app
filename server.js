@@ -60,11 +60,9 @@ function createTemplate (data) {
             <div id='printchatbox'></div>
             <h3>Comments</h3>
             You can place your comments here : 
-            <textarea name="comment" cols="25" rows="8"></textarea>
-            <input type="submit" value="Submit" id="sub_btn"></input>
-            <ul id="commentlist">
-                
-            </ul>
+            <p><textarea name="comment" cols="25" rows="8"></textarea>
+            <input type="submit" value="Submit" id="sub_btn"><input type="reset"></input></p>
+           
         </body>
     </html>`;
     return htmlTemplate;
