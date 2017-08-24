@@ -60,7 +60,7 @@ function createTemplate (data) {
             <h3>Comments</h3>
             You can place your comments here : 
             <input type="text" id="comment" size="50" maxlength="150" placeholder="comment"></input>
-            <input type="submit" value="Submit" id="submit_btn"></input>
+            <input type="submit" value="Submit" id="sub_btn"></input>
             <ul id="commentlist">
                 
             </ul>
