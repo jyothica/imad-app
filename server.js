@@ -63,7 +63,7 @@ function createTemplate (data) {
             <input type="submit" value="Submit" id="submit_btn"></input>
             <ul id="commentlist">
                 
-            </ul>;
+            </ul>
         </body>
     </html>`;
     return htmlTemplate;
