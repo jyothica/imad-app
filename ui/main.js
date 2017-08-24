@@ -79,7 +79,7 @@ submit.onclick = function() {
   
   // ---------------------------------//
   
-  // Submit name
+  // Submit comment
 
 var sub= document.getElementById('submit_btn');
 submit.onclick = function() {
