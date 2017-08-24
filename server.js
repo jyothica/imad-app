@@ -64,7 +64,7 @@ function createTemplate (data) {
             <p><textarea name="comment" cols="25" rows="8"></textarea>
             <br/>
             <input type="submit" onclick= function getwords() </input>
-            <input type="reset"></input></p>
+            <input type="reset" value="reset"></input></p>
             
             <p><b>Your comments: </b>
             <span id='display'></span></p>
