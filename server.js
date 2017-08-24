@@ -63,7 +63,7 @@ function createTemplate (data) {
             <p><textarea name="comment" cols="25" rows="8"></textarea>
             <br/>
             <input type="submit" value="Submit" id="sub_btn"></input>
-            <input type="reset" value=""></input></p>
+            <input type="reset" name="Reset" value=""></input></p>
            
         </body>
     </html>`;
