@@ -12,20 +12,22 @@ var articles = {
   date: 'August 22,2017',
   content: ` <p>This is the content of my first article.. This is the content of my first article..This is the content of my first article..This is the content of my first article..</p>
                 <p>This is the content of my first article.. This is the content of my first article..This is the content of my first article..This is the content of my first article..</p>
-                <p>This is the content of my first article.. This is the content of my first article..This is the content of my first article..This is the content of my first article..</p> `
+                <p>This is the content of my first article.. This is the content of my first article..This is the content of my first article..This is the content of my first article..</p> <hr/>`
+   
   
 },
     'article-two': {
         title: 'Article Two | Jyothica Tauro',
         heading: 'Article Two',
         date: 'August 23,2017',
-        content: ` <p>This is the content of my second article.. </p>`
+        content: ` <p>This is the content of my second article.. </p><hr/>`
+        
     },
     'article-three': {
         title: 'Article Three | Jyothica Tauro',
         heading: 'Article Three',
         date: 'August 24,2017',
-        content: ` <p>This is the content of my third article.. </p>`
+        content: ` <p>This is the content of my third article.. </p><hr/>`
     }
 };
 
@@ -34,6 +36,7 @@ function createTemplate (data) {
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
+   // var comment = data.comment;
     var htmlTemplate = `
         <html>
         <head>
@@ -54,10 +57,19 @@ function createTemplate (data) {
                 <div>
                     ${content}
             </div>
+            <h3>Comments</h3>
+            You can place your comments here : 
+            <input type="text" id="comment" placeholder="comment"></input>
+            <input type="submit" value="Submit" id="submit_btn"></input>
+            <ul id="commentlist">
+                
+            </ul>;
         </body>
     </html>`;
     return htmlTemplate;
 }    
+
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
