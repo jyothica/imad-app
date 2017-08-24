@@ -61,6 +61,7 @@ function createTemplate (data) {
             <h3>Comments</h3>
             You can place your comments here : 
             <p><textarea name="comment" cols="25" rows="8"></textarea>
+            <br/>
             <input type="submit" value="Submit" id="sub_btn"><input type="reset"></input></p>
            
         </body>
