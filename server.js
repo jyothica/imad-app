@@ -62,11 +62,10 @@ function createTemplate (data) {
             You can place your comments here : 
             <p><textarea name="comment" cols="25" rows="8"></textarea>
             <br/>
-            function showInput() {
-        document.getElementById('display').innerHTML = 
-                    document.getElementById("user_input").value;
-    }
-            <input type="submit" onclick="showInput();"></input>
+            <input type="submit" onclick= function(){
+                document.getElementById('display').innerHTML = 
+                    document.getElementById("comment").value;
+            };"></input>
             <input type="reset"></input></p>
             
             <p><b>Your comments: </b>
